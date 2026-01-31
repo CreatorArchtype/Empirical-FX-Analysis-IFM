@@ -183,7 +183,7 @@ for package, description in optional_deps.items():
         all_optional = False
 
 if not all_optional:
-    print("\n   ℹ️  Install all dependencies with: pip install -r requirements.txt")
+    print("\n  Install all dependencies with: pip install -r requirements.txt")
 
 # Final summary
 print("\n" + "="*60)
